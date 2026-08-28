@@ -63,3 +63,7 @@ Customize `resources/views/layouts/admin.blade.php` navigation for your app.
 ```
 
 See published `AGENTS.md` for full component reference.
+
+## Deploy & updates
+
+See [DEPLOY.md](./DEPLOY.md) — run `deploy/stack-update.sh` on each Forge deploy to pull latest semver tags.
