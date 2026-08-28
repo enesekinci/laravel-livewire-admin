@@ -14,11 +14,11 @@ Constraint'ler `^1.0`, `^1.2` gibi kalmalı — **major** sürüm deploy'da otom
 
 ---
 
-## 1. Projede composer repositories (bir kez)
+## 1. Composer kaynağı
 
-`composer.json` içinde tüm Enes VCS repo'ları tanımlı olmalı (meta + bağımlılıklar + media + rich-text). Örnek: caganmekanik.com `composer.json`.
+Paketler **Packagist**’te: `enesekinci/laravel-livewire-*`. Projede ekstra `repositories` gerekmez.
 
----
+İlk kurulum / Packagist rehberi: [PACKAGIST.md](./PACKAGIST.md).
 
 ## 2. Deploy hook (Forge / sunucu)
 

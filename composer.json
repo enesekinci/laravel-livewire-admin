@@ -3,8 +3,18 @@
     "description": "Meta package for the Enes Ekinci Livewire admin stack (UI, toast, confirm, search-select).",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
     "keywords": ["laravel", "livewire", "admin", "tailwind"],
+    "authors": [
+        {
+            "name": "Enes Ekinci",
+            "homepage": "https://github.com/enesekinci"
+        }
+    ],
+    "homepage": "https://github.com/enesekinci/laravel-livewire-admin",
+    "support": {
+        "issues": "https://github.com/enesekinci/laravel-livewire-admin/issues",
+        "source": "https://github.com/enesekinci/laravel-livewire-admin"
+    },
     "require": {
         "php": "^8.2",
         "enesekinci/laravel-livewire-admin-ui": "^1.2",
