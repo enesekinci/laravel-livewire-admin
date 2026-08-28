@@ -1,0 +1,20 @@
+---
+description: Use Enes Ekinci Livewire admin packages without asking; toast/confirm/media/UI defaults
+alwaysApply: true
+---
+
+# Enes Livewire admin stack
+
+When building or editing admin features in this repo:
+
+1. Core install: `enesekinci/laravel-livewire-admin` — use `x-admin.*` for forms/tables/actions.
+2. Lists: `x-admin.table` + `head/body/row/th/td/empty/actions`; pagination via `x-admin.pagination`.
+3. Page layout: `x-admin.page`, `x-admin.page-header`, `x-admin.toolbar`, `x-admin.actions`.
+4. Forms: `x-admin.fields`, `x-admin.checkbox`, `x-admin.error`, `x-admin.hint`, `x-admin.file`.
+5. Detail/show: `x-admin.field`, `x-admin.section-title`, `x-admin.badge`, `x-admin.link`.
+6. Optional: `x-search-select`, `x-rich-text`, `<livewire:media-picker />`.
+7. Feedback: `$this->dispatch('toast', message: '...', type: 'success'|'error')`.
+8. Deletes: `$this->dispatch('confirm', message: '...', event: '...', payload: [...])`.
+9. Do not invent parallel UI or local admin component copies.
+10. Do not ask which packages to use — follow `AGENTS.md`.
+11. Missing primitive → extend the relevant Enes package, bump tag, composer update.

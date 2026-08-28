@@ -1,0 +1,36 @@
+{
+    "name": "enesekinci/laravel-livewire-admin",
+    "description": "Meta package for the Enes Ekinci Livewire admin stack (UI, toast, confirm, search-select).",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": ["laravel", "livewire", "admin", "tailwind"],
+    "require": {
+        "php": "^8.2",
+        "enesekinci/laravel-livewire-admin-ui": "^1.2",
+        "enesekinci/laravel-livewire-confirm-modal": "^1.0",
+        "enesekinci/laravel-livewire-flash-toast": "^1.0",
+        "enesekinci/laravel-livewire-search-select": "^1.0",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "livewire/livewire": "^3.0|^4.0"
+    },
+    "suggest": {
+        "enesekinci/laravel-livewire-media": "R2/S3 media library modal for admin panels (^1.1).",
+        "enesekinci/laravel-livewire-rich-text": "TipTap rich text editor with media picker integration (^1.2).",
+        "league/flysystem-aws-s3-v3": "Required when using laravel-livewire-media with S3/R2."
+    },
+    "autoload": {
+        "psr-4": {
+            "EnesEkinci\\LivewireAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EnesEkinci\\LivewireAdmin\\LivewireAdminServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

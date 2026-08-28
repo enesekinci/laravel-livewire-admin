@@ -1,0 +1,7 @@
+{{-- Add these @source lines to resources/css/app.css (or @import this file). --}}
+@source '../../vendor/enesekinci/laravel-livewire-admin-ui/resources/views/**/*.blade.php';
+@source '../../vendor/enesekinci/laravel-livewire-confirm-modal/resources/views/**/*.blade.php';
+@source '../../vendor/enesekinci/laravel-livewire-flash-toast/resources/views/**/*.blade.php';
+@source '../../vendor/enesekinci/laravel-livewire-search-select/resources/views/**/*.blade.php';
+@source '../../vendor/enesekinci/laravel-livewire-media/resources/views/**/*.blade.php';
+@source '../../vendor/enesekinci/laravel-livewire-rich-text/resources/views/**/*.blade.php';
