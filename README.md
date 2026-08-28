@@ -22,7 +22,19 @@ composer require enesekinci/laravel-livewire-admin
 composer require enesekinci/laravel-livewire-media enesekinci/laravel-livewire-rich-text
 ```
 
-Add VCS repositories to `composer.json` if packages are private on GitHub (see `AGENTS.md` in your app).
+Add VCS repositories to `composer.json` if packages are private on GitHub (all Enes repos — meta + dependencies):
+
+```json
+"repositories": [
+    { "type": "vcs", "url": "https://github.com/enesekinci/laravel-livewire-admin" },
+    { "type": "vcs", "url": "https://github.com/enesekinci/laravel-livewire-admin-ui" },
+    { "type": "vcs", "url": "https://github.com/enesekinci/laravel-livewire-flash-toast" },
+    { "type": "vcs", "url": "https://github.com/enesekinci/laravel-livewire-confirm-modal" },
+    { "type": "vcs", "url": "https://github.com/enesekinci/laravel-livewire-search-select" }
+]
+```
+
+Add `media` and `rich-text` repos when using those add-ons.
 
 ## Publish stubs
 
