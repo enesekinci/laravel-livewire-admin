@@ -25,6 +25,7 @@ Single Composer entry for the core Enes Ekinci Livewire admin stack.
 1. Apps should `composer require enesekinci/laravel-livewire-admin` — not the four core packages individually.
 2. Publish stubs: `php artisan vendor:publish --tag=livewire-admin-stubs`.
 3. Do not duplicate sub-package code into this meta repo — only composer deps + stubs + config.
+4. The published `resources/views/layouts/admin.blade.php` stub uses `<x-admin.nav :items="...">` for the sidebar; update the items array instead of editing sidebar HTML.
 4. When editing UI primitives, go to `laravel-livewire-admin-ui` repo.
 5. Bump meta tag when minimum sub-package versions change.
 
